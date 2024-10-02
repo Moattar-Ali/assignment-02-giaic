@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.description{
+  display:inline-block;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  width:50%;
+  height:100%;
+  background-size: cover;
+  position: absolute;
+}
+
+#myName{
+  font-weight: bolder;
+  text-align: center;
+  font-size: larger;
+}
+
+.myImage{
+display:inline-block;
+height: 100%;
+width: 50%;
+background-color: brown;
+border: 1px solid white;
+background-image: url("https://plus.unsplash.com/premium_photo-1724634778361-53d823f0aed3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-size: cover;
+position: absolute;
+top:0px;
+right:0px;
+}
